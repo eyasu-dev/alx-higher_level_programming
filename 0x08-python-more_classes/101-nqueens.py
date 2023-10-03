@@ -12,6 +12,10 @@ N must be an integer greater than or equal to 4.
 Attributes:
     board (list): A list of lists representing the chessboard.
     solutions (list): A list of lists containing solutions.
+
+Solutions are represented in the format [[r, c], [r, c], [r, c], [r, c]]
+where `r` and `c` represent the row and column, respectively, where a
+queen must be placed on the chessboard.
 """
 import sys
 
@@ -134,5 +138,5 @@ if __name__ == "__main__":
 
     board = init_board(int(sys.argv[1]))
     solutions = recursive_solve(board, 0, 0, [])
-    for solution in solutions:
-        print(solution)
+    for solutio in solutions:
+        print(solutio)
