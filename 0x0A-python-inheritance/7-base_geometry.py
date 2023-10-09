@@ -2,6 +2,8 @@
 """
 Holds the class superclass BaseGeometry
 """
+
+
 class BaseGeometry:
     """An empty class"""
 
