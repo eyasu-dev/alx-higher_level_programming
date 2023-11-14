@@ -1,0 +1,2 @@
+-- listall database
+SHOW DATABASES;
