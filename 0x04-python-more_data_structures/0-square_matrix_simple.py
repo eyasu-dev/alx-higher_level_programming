@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    if matrix is None:
-        return
-    else:
-        new_matrix = []
-        for i in matrix:
-            sq_list = [x ** 2 for x in i]
-            new_matrix.append(sq_list)
-        return (new_matrix)
+    new_matrix = []
+    for row in matrix:
+        transpose = []
+        for elem in row:
+            elem = elem * elem
+            transpose.append(elem)
+        new_matrix.append(transpose)
+    return new_matrix

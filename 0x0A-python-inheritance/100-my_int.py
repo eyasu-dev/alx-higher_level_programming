@@ -4,12 +4,31 @@
 
 
 class MyInt(int):
-    """Invert int operators == and !=."""
+    """Inherits from int but inverting == and !=
+    """
+
+    def __init__(self, num):
+        """Initializes MyInt
+        Args:
+            num (int): int that's passed through
+        """
+
+        self.num = num
 
     def __eq__(self, value):
-        """Override == opeartor with != behavior."""
-        return self.real != value
+        """Inverts == to !=
+            Returns:
+                bool: true or false
+        """
+
+        if not isinstance(value, MyInt):
+            return False
 
     def __ne__(self, value):
-        """Override != operator with == behavior."""
-        return self.real == value
+        """Inverts != to ==
+            Returns:
+                bool: true or false
+        """
+
+        if not isinstance(value, MyInt):
+            return True

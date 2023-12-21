@@ -2,19 +2,18 @@
 """
 Holds the class superclass BaseGeometry
 """
+Base = __import__('6-base_geometry').BaseGeometry
 
 
-class BaseGeometry:
-    """An empty class"""
-
-    def area(self):
-        """Raise an exception with the specified message"""
-        raise Exception("area() is not implemented")
+class BaseGeometry(Base):
+    """BaseGeometry class containing area and integer_validator
+    """
 
     def integer_validator(self, name, value):
-        """Validates the value for int type."""
+        """Validates input passed to match conditions provided
+        """
 
         if type(value) is not int:
-            raise TypeError("{} must be an integer".format(name))
+            raise TypeError("{:s} must be an integer".format(name))
         if value <= 0:
-            raise ValueError("{} must be greater than 0".format(name))
+            raise ValueError("{:s} must be greater than 0".format(name))

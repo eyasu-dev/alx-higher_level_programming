@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
-    for rol in range(len(matrix)):
-        for col in range(len(matrix[rol])):
-            if col != 0:
-                print(" ", end="")
-            print("{:d}".format(matrix[rol][col]), end='')
+    for row in matrix:
+        for col in row:
+            print("{:d}".format(col), end=" " if col != row[-1] else "")
         print()
