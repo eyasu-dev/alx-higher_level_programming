@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 0x0D. SQL - Introduction
 
 This directory contains solutions to tasks on the topic of SQL, specifically on the basics of SQL language and usage in MySQL.
@@ -42,3 +43,6 @@ This directory contains solutions to tasks on the topic of SQL, specifically on 
 
 # AUTHOR 
 - [Solomon Kassa](https://github.com/somonkassa/)
+=======
+SQL introduction
+>>>>>>> f83b6ecb48e538314d363e2189e189f9076048eb

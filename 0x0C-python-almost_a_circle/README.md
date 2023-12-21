@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Almost a Circle Project
 ------------------------------------------------------------------------------------------------------------------------------------------------
 This project is part of the ALX curriculum, focused on learning and practicing Object Oriented Programming in Python.
@@ -44,3 +45,6 @@ tests/
 #Author
 
 This project was created by [Solomon Kassa](https://github.com/Solomonkassa) as a student at ALX.
+=======
+0x0C. Python - Almost a circle
+>>>>>>> f83b6ecb48e538314d363e2189e189f9076048eb

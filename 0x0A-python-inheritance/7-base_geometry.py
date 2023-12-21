@@ -2,7 +2,14 @@
 """
 Holds the class superclass BaseGeometry
 """
+<<<<<<< HEAD
 Base = __import__('6-base_geometry').BaseGeometry
+=======
+
+
+class BaseGeometry:
+    """An empty class"""
+>>>>>>> f83b6ecb48e538314d363e2189e189f9076048eb
 
 
 class BaseGeometry(Base):

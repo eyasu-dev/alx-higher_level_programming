@@ -150,7 +150,11 @@ class Base:
             cos.showturtle()
             cos.up()
             cos.goto(rect.x, rect.y)
+<<<<<<< HEAD
             turt.down()
+=======
+            turtle.down()
+>>>>>>> f83b6ecb48e538314d363e2189e189f9076048eb
             for i in range(2):
                 cos.forward(rect.width)
                 cos.left(90)
